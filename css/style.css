@@ -1,0 +1,55 @@
+body {
+  background-color: #eeedeb;
+}
+
+.navbar-nav {
+  padding-left: 1rem;
+}
+
+.nav-item {
+  padding-left: 3rem;
+}
+
+.navbar-brand {
+  pointer-events: none;
+  font-weight: bold;
+  color: #9dbc98;
+  padding-top: 0.8rem;
+  padding-left: 0.8rem;
+}
+
+.promotion {
+  display: flex;
+  justify-content: space-between;
+  // text-align: end;
+}
+
+.promo-text {
+  @media only screen and (max-width: 375px) {
+    // 375px以下の処理
+    padding: 4rem;
+    padding-top: 30%;
+    font-size: 190%;
+    line-height: 150%;
+  }
+
+  padding: 5rem;
+  padding-top: 18%;
+  font-size: 200%;
+  line-height: 150%;
+}
+
+.img-fluid {
+  @media only screen and (max-width: 878px) {
+    /* 878px以下の処理 */
+    width: 50%;
+  }
+
+  @media only screen and (max-width: 707px) {
+    /* 707px以下の処理 */
+    display: none;
+  }
+
+  width: 40%;
+  height: auto;
+}
