@@ -3,6 +3,7 @@ body {
   font-family: "Noto Serif Display", "Gotu", serif;
 }
 
+/* header */
 .navbar-nav {
   padding-left: 1rem;
 }
@@ -19,6 +20,7 @@ body {
   padding-left: 0.8rem;
 }
 
+/* main content */
 .promotion {
   display: flex;
   justify-content: end;
@@ -58,9 +60,47 @@ body {
 }
 
 .texture-content {
-  padding-top: 10rem; // 上の間隔を空ける
+  padding-top: 15rem; // 上の間隔を空ける
 }
 
 .texture-title {
   padding-left: 4rem;
+  font-size: 150%;
+
+  @media screen and (max-width: 704px) {
+    /*　画面サイズが704px以下読み込む　*/
+    display: none;
+  }
+}
+
+.texture-title-mobile {
+  padding-left: 1rem;
+  font-size: 1.3rem;
+
+  @media screen and (min-width: 704px) {
+    /*　画面サイズが704px以下読み込む　*/
+    display: none;
+  }
+}
+
+.texture-img {
+  padding-top: 6rem;
+  display: flex;
+  justify-content: space-around;
+
+  @media screen and (max-width: 575px) {
+    /*　画面サイズが575px以下読み込む　*/
+    display: none;
+  }
+}
+
+.texture-info {
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* footer */
+.footer-content {
+  padding-top: 15rem; // 上の間隔を空ける
 }
