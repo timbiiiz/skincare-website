@@ -4,6 +4,7 @@ body {
 
 .navbar-nav {
   padding-left: 1rem;
+  font-family: 'Noto Serif Display', serif;
 }
 
 .nav-item {
@@ -11,6 +12,7 @@ body {
 }
 
 .navbar-brand {
+  font-family: 'Noto Serif Display', serif;
   pointer-events: none;
   font-weight: bold;
   color: #9dbc98;
@@ -25,10 +27,27 @@ body {
 .promotion {
   display: flex;
   justify-content: end;
+
+  @media screen and (max-width: 767px) { 
+    /*　画面サイズが767px以下を読み込む　*/
+    display: none;
+  }
+}
+
+/* mobile only表示 */
+.mobile-title {
+  padding: 4em;
+  font-family: 'Noto Serif Display', serif;
+
+  @media screen and (min-width: 768px) { 
+    /*　画面サイズが768px以下読み込む　*/
+    display: none;
+  }
+
 }
 
 .promo-text {
   padding: 4em;
-  padding-top: 24%;
   font-size: 200%;
+  font-family: 'Noto Serif Display', serif;
 }
