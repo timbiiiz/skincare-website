@@ -78,7 +78,7 @@ body {
   font-size: 1.3rem;
 
   @media screen and (min-width: 704px) {
-    /*　画面サイズが704px以下読み込む　*/
+    /*　画面サイズが704px以上を読み込む　*/
     display: none;
   }
 }
