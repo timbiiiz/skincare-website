@@ -34,259 +34,256 @@
 
   <body>
     <!-- header body -->
-    <!-- luxyを適用するためにid=luxyで囲う -->
     <!-- sticky-topでヘッダー固定 -->
-    <div id="luxy">
-      <div class="sticky-top">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <h2 class="navbar-brand">
+    <div class="sticky-top">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <h2 class="navbar-brand">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../html/index.html"
+                >Skin Hub.</a
+              >
+            </h2>
+            <ul class="navbar-nav">
+              <li class="nav-item">
                 <a
                   class="nav-link active"
                   aria-current="page"
                   href="../html/index.html"
-                  >Skin Hub.</a
+                  >Home</a
                 >
-              </h2>
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="../html/index.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href=""
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Our Products
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="">Facial Care</a></li>
-                    <li><a class="dropdown-item" href="">Eyes Care</a></li>
-                    <li><a class="dropdown-item" href="">Hands Care</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#pricing">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Contact</a>
-                </li>
-              </ul>
-            </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href=""
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Our Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="">Facial Care</a></li>
+                  <li><a class="dropdown-item" href="">Eyes Care</a></li>
+                  <li><a class="dropdown-item" href="">Hands Care</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Contact</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
+    </div>
 
-      <!-- main body -->
-      <div class="promotion">
-        <h1 class="col-md promo-text">
-          Enhance Your Skin's Beauty with Nature's Bounty
-        </h1>
+    <!-- main body -->
+    <div class="promotion">
+      <h1 class="col-md promo-text">
+        Enhance Your Skin's Beauty with Nature's Bounty
+      </h1>
+      <img
+        src="../images/mainpagewoman.jpg"
+        class="col-xs-10 col-sm-6 col-md-5 img-fluid"
+        alt="Responsive image"
+      />
+    </div>
+
+    <!-- スマホサイズの時のpromotion -->
+    <div class="mobile-promo">
+      <h3 class="mobile-title">
+        Enhance Your Skin's Beauty with Nature's Bounty
+      </h3>
+      <img
+        src="../images/skinproductmobile.jpg"
+        class="img-fluid mobile-copycare"
+        alt="Responsive image"
+      />
+    </div>
+
+    <!-- セカンドコンテント -->
+    <div class="texture-content">
+      <h3 class="col-md texture-title">We have prepared various textures</h3>
+      <!-- moblile -->
+      <h3 class="texture-title-mobile">We have prepared various textures</h3>
+
+      <!-- texture img -->
+      <div class="texture-img">
         <img
-          src="../images/mainpagewoman.jpg"
-          class="col-xs-10 col-sm-6 col-md-5 img-fluid"
+          src="../images/textures/whitetexture.png"
+          class="col-sm-2 col-md-2 img-fluid texture1"
+          alt="Responsive image"
+        />
+        <img
+          src="../images/textures/pinktexture.png"
+          class="col-sm-2 col-md-2 img-fluid texture2"
+          alt="Responsive image"
+        />
+        <img
+          src="../images/textures/purple.png"
+          class="col-sm-2 col-md-2 img-fluid texture3"
           alt="Responsive image"
         />
       </div>
 
-      <!-- スマホサイズの時のpromotion -->
-      <div class="mobile-promo">
-        <h3 class="mobile-title">
-          Enhance Your Skin's Beauty with Nature's Bounty
-        </h3>
+      <!-- mobile texture img -->
+      <div class="mobile-texture-img">
         <img
-          src="../images/skinproductmobile.jpg"
-          class="img-fluid mobile-copycare"
+          src="../images/textures/whitetexture.png"
+          class="img-fluid mobile-texture-img1"
+          alt="Responsive image"
+        />
+        <img
+          src="../images/textures/pinktexture.png"
+          class="img-fluid mobile-texture-texture2"
+          alt="Responsive image"
+        />
+        <img
+          src="../images/textures/purple.png"
+          class="img-fluid mobile-texture-img3"
           alt="Responsive image"
         />
       </div>
 
-      <!-- セカンドコンテント -->
-      <div class="texture-content">
-        <h3 class="col-md texture-title">We have prepared various textures</h3>
-        <!-- moblile -->
-        <h3 class="texture-title-mobile">We have prepared various textures</h3>
-
-        <!-- texture img -->
-        <div class="texture-img">
-          <img
-            src="../images/textures/whitetexture.png"
-            class="col-sm-2 col-md-2 img-fluid texture1"
-            alt="Responsive image"
-          />
-          <img
-            src="../images/textures/pinktexture.png"
-            class="col-sm-2 col-md-2 img-fluid texture2"
-            alt="Responsive image"
-          />
-          <img
-            src="../images/textures/purple.png"
-            class="col-sm-2 col-md-2 img-fluid texture3"
-            alt="Responsive image"
-          />
-        </div>
-
-        <!-- mobile texture img -->
-        <div class="mobile-texture-img">
-          <img
-            src="../images/textures/whitetexture.png"
-            class="img-fluid mobile-texture-img1"
-            alt="Responsive image"
-          />
-          <img
-            src="../images/textures/pinktexture.png"
-            class="img-fluid mobile-texture-texture2"
-            alt="Responsive image"
-          />
-          <img
-            src="../images/textures/purple.png"
-            class="img-fluid mobile-texture-img3"
-            alt="Responsive image"
-          />
-        </div>
-
-        <div class="texture-info">
-          <p>Soft</p>
-          <p>Midium Soft</p>
-          <p>Hard</p>
-        </div>
+      <div class="texture-info">
+        <p>Soft</p>
+        <p>Midium Soft</p>
+        <p>Hard</p>
       </div>
+    </div>
 
-      <!-- check button -->
-      <div class="check-product">
-        <button type="button" class="btn btn-outline-dark">
-          Check Our Products
-        </button>
-      </div>
+    <!-- check button -->
+    <div class="check-product">
+      <button type="button" class="btn btn-outline-dark">
+        Check Our Products
+      </button>
+    </div>
 
-      <!-- footer -->
-      <div class="footer-content">
-        <!-- subscription -->
-        <section id="pricing" class="pricing-content section-padding">
-          <div class="container">
-            <div class="section-title text-center">
-              <h1>Subscription Plan</h1>
-              <p>
-                We will deliver the most suitable and premium care products for
-                you, tailored to your condition plan.
-              </p>
-            </div>
-            <div class="row text-center">
-              <div
-                class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.1s"
-                data-wow-offset="0"
-              >
-                <div class="single-pricing">
-                  <div class="price-head">
-                    <h2>Starter</h2>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                  <h1 class="price">$39</h1>
-                  <h5>Monthly</h5>
-                  <ul>
-                    <li>Face Cream</li>
-                    <li>Eyes Cream</li>
-                    <li>Hands Cream</li>
-                  </ul>
-                  <a href="#">Get start</a>
-                </div>
-              </div>
-              <!--- END COL -->
-              <div
-                class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.2s"
-                data-wow-offset="0"
-              >
-                <div class="single-pricing">
-                  <div class="price-head">
-                    <h2>popular</h2>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                  <h1 class="price">$69</h1>
-                  <h5>Monthly</h5>
-                  <ul>
-                    <li>Face Cream</li>
-                    <li>Eyes Cream</li>
-                    <li>Hands Cream</li>
-                    <li>Beauty serum</li>
-                    <li>Oil cleansing</li>
-                  </ul>
-                  <a href="#">Get start</a>
-                </div>
-              </div>
-              <!--- END COL -->
-              <div
-                class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.3s"
-                data-wow-offset="0"
-              >
-                <div class="single-pricing single-pricing-white">
-                  <div class="price-head">
-                    <h2>Advance</h2>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                  <span class="price-label">Best</span>
-                  <h1 class="price">$89</h1>
-                  <h5>Monthly</h5>
-                  <ul>
-                    <li>Face Cream</li>
-                    <li>Eyes Cream</li>
-                    <li>Hands Cream</li>
-                    <li>Beauty serum</li>
-                    <li>Oil cleansing</li>
-                    <li>Water cleansing</li>
-                    <li>Moisturizing cream</li>
-                    <li>+ Support Service</li>
-                  </ul>
-                  <a href="#">Get start</a>
-                </div>
-              </div>
-              <!--- END COL -->
-            </div>
-            <!--- END ROW -->
+    <!-- footer -->
+    <div class="footer-content">
+      <!-- subscription -->
+      <section id="pricing" class="pricing-content section-padding">
+        <div class="container">
+          <div class="section-title text-center">
+            <h1>Subscription Plan</h1>
+            <p>
+              We will deliver the most suitable and premium care products for
+              you, tailored to your condition plan.
+            </p>
           </div>
-          <!--- END CONTAINER -->
-        </section>
-      </div>
+          <div class="row text-center">
+            <div
+              class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="0.1s"
+              data-wow-offset="0"
+            >
+              <div class="single-pricing">
+                <div class="price-head">
+                  <h2>Starter</h2>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <h1 class="price">$39</h1>
+                <h5>Monthly</h5>
+                <ul>
+                  <li>Face Cream</li>
+                  <li>Eyes Cream</li>
+                  <li>Hands Cream</li>
+                </ul>
+                <a href="#">Get start</a>
+              </div>
+            </div>
+            <!--- END COL -->
+            <div
+              class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="0.2s"
+              data-wow-offset="0"
+            >
+              <div class="single-pricing">
+                <div class="price-head">
+                  <h2>popular</h2>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <h1 class="price">$69</h1>
+                <h5>Monthly</h5>
+                <ul>
+                  <li>Face Cream</li>
+                  <li>Eyes Cream</li>
+                  <li>Hands Cream</li>
+                  <li>Beauty serum</li>
+                  <li>Oil cleansing</li>
+                </ul>
+                <a href="#">Get start</a>
+              </div>
+            </div>
+            <!--- END COL -->
+            <div
+              class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="0.3s"
+              data-wow-offset="0"
+            >
+              <div class="single-pricing single-pricing-white">
+                <div class="price-head">
+                  <h2>Advance</h2>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <span class="price-label">Best</span>
+                <h1 class="price">$89</h1>
+                <h5>Monthly</h5>
+                <ul>
+                  <li>Face Cream</li>
+                  <li>Eyes Cream</li>
+                  <li>Hands Cream</li>
+                  <li>Beauty serum</li>
+                  <li>Oil cleansing</li>
+                  <li>Water cleansing</li>
+                  <li>Moisturizing cream</li>
+                  <li>+ Support Service</li>
+                </ul>
+                <a href="#">Get start</a>
+              </div>
+            </div>
+            <!--- END COL -->
+          </div>
+          <!--- END ROW -->
+        </div>
+        <!--- END CONTAINER -->
+      </section>
     </div>
 
     <!-- footer contact -->
@@ -391,7 +388,5 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
-    <!-- luxy.js -->
-    <script src="../luxy.min.js"></script>
   </body>
 </html>
