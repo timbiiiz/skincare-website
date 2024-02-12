@@ -75,7 +75,7 @@ body {
 
 .texture-title-mobile {
   padding-left: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 
   @media screen and (min-width: 704px) {
     /*　画面サイズが704px以上を読み込む　*/
@@ -84,7 +84,7 @@ body {
 }
 
 .texture-img {
-  padding-top: 6rem;
+  padding-top: 3rem;
   display: flex;
   justify-content: space-around;
 
@@ -94,13 +94,52 @@ body {
   }
 }
 
+.mobile-texture-img {
+  display: flex;
+  width: 34%;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  justify-content: space-between;
+
+  @media screen and (min-width: 576px) {
+    /*　画面サイズが565px以上読み込む　*/
+    display: none;
+  }
+}
+
 .texture-info {
   padding-top: 0.5rem;
   display: flex;
   justify-content: space-around;
+  tex-align: center;
+}
+
+.check-product {
+  padding-top: 4rem;
+  text-align: center;
 }
 
 /* footer */
 .footer-content {
   padding-top: 15rem; // 上の間隔を空ける
+}
+
+.subsc-title {
+  padding-left: 4rem;
+  font-size: 150%;
+
+  @media screen and (max-width: 704px) {
+    /*　画面サイズが704px以下読み込む　*/
+    display: none;
+  }
+}
+
+.subsc-title-mobile {
+  padding-left: 1rem;
+  font-size: 1.2rem;
+
+  @media screen and (min-width: 704px) {
+    /*　画面サイズが704px以上を読み込む　*/
+    display: none;
+  }
 }
