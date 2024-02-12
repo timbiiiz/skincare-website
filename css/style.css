@@ -13,7 +13,7 @@ body {
 }
 
 .navbar-brand {
-  pointer-events: none;
+  // pointer-events: none;
   font-weight: bold;
   color: #9dbc98;
   padding-top: 0.8rem;
@@ -125,9 +125,6 @@ body {
 }
 
 /* subscription */
-body {
-  margin-top: 20px;
-}
 .pricing-content {
 }
 .single-pricing {
