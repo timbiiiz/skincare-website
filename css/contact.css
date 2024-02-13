@@ -15,3 +15,17 @@ body {
   padding-top: 0.8rem;
   padding-left: 0.8rem;
 }
+
+.contactFormSection,
+.formSection {
+  padding-top: 3rem;
+}
+
+.passForm {
+  padding-top: 2rem;
+}
+
+.checkForm {
+  padding-bottom: 2rem;
+}
+
