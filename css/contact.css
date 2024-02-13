@@ -8,10 +8,6 @@ body {
   padding-left: 1rem;
 }
 
-.nav-item {
-  padding-left: 3rem;
-}
-
 .navbar-brand {
   // pointer-events: none;
   font-weight: bold;
