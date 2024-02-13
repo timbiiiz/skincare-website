@@ -15,3 +15,13 @@ body {
   padding-top: 0.8rem;
   padding-left: 0.8rem;
 }
+
+.contact-title {
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+#contact-form {
+  padding-top: 2rem;
+  text-align: center;
+}
