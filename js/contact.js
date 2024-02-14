@@ -15,7 +15,7 @@
           event.stopPropagation();
         } else {
           // if event wasn't false, show this messaage
-          alert("We recived your message!\nWe'll reply as soon as possible.");
+          alert("recived your message!\nwe'll reply as soon as possible.");
         }
 
         form.classList.add("was-validated");
