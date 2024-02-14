@@ -16,16 +16,14 @@ body {
   padding-left: 0.8rem;
 }
 
-.contactFormSection,
-.formSection {
-  padding-top: 3rem;
-}
-
-.passForm {
+.contactFormSection {
   padding-top: 2rem;
 }
 
-.checkForm {
-  padding-bottom: 2rem;
+.jc {
+  margin: 5rem;
 }
 
+.sbtn {
+  padding-top: 2rem;
+}

@@ -1,10 +1,23 @@
-function buttonClick() {
-  msg.mailText = "内容の回答は" + mailText.value + "へお送りいたします。";
-}
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  "use strict";
 
-let mailText = document.getElementById("mailText");
-mailText.value = "";
-let msg = document.getElementById("msg");
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll(".needs-validation");
 
-let send = document.getElementById("send");
-send.addEventListener("click", buttonClick);
+  // Loop over them and prevent submission
+  Array.from(forms).forEach((form) => {
+    form.addEventListener(
+      "submit",
+      (event) => {
+        if (!form.checkValidity()) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+
+        form.classList.add("was-validated");
+      },
+      false
+    );
+  });
+})();
