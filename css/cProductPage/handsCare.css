@@ -21,8 +21,6 @@ body {
 }
 
 /* main page */
-.forest-img {
-  width: 100%;
-  height: 100px;
-  obgect-fit: cover;
+.handsTitle {
+  padding: 2rem;
 }
