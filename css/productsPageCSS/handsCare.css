@@ -1,0 +1,9 @@
+body {
+  background-color: #eeedeb;
+  font-family: "Noto Serif Display", "Gotu", serif;
+}
+
+.forest-img {
+  max-width: 100%;
+  height: auto;
+}
