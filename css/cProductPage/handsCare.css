@@ -13,7 +13,6 @@ body {
 }
 
 .navbar-brand {
-  // pointer-events: none;
   font-weight: bold;
   color: #9dbc98;
   padding-top: 0.8rem;
