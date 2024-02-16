@@ -60,7 +60,7 @@ body {
 }
 
 .texture-content {
-  padding-top: 15rem; // 上の間隔を空ける
+  padding-top: 20rem; // 上の間隔を空ける
 }
 
 .texture-title {
@@ -84,7 +84,7 @@ body {
 }
 
 .texture-img {
-  padding-top: 3rem;
+  padding-top: 5rem;
   display: flex;
   justify-content: space-around;
 
@@ -108,20 +108,15 @@ body {
 }
 
 .texture-info {
-  padding-top: 0.5rem;
+  padding-top: 5rem;
   display: flex;
   justify-content: space-around;
   tex-align: center;
 }
 
-.check-product {
-  padding-top: 4rem;
-  text-align: center;
-}
-
 /* footer */
 .footer-content {
-  padding-top: 15rem; // 上の間隔を空ける
+  padding-top: 25rem; // 上の間隔を空ける
 }
 
 /* subscription */
